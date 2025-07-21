@@ -1,0 +1,23 @@
+{
+  "name": "applicationserver",
+  "version": "1.0.0",
+  "description": "This is the test application server to test CI CD pipeline with Jenkines, docker and github",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantanuGarai/ApplicationServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantanuGarai/ApplicationServer/issues"
+  },
+  "homepage": "https://github.com/SantanuGarai/ApplicationServer#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

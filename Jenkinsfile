@@ -18,7 +18,7 @@ pipeline {
             steps {
                 // Jenkins automatically checks out the code from the configured repository
                 echo "Checking out source code..."
-                git branch: 'main', url: 'https://github.com/SantanuGarai/CICDPipelineTest.git'
+                git branch: 'main', url: 'https://github.com/SantanuGarai/ApplicationServer.git'
             }
         }
 

@@ -7,7 +7,7 @@ pipeline {
         // Define your Docker Hub username and image name
         DOCKERHUB_USERNAME = "santanugarai"
         IMAGE_NAME = "applicationserver"
-        TAG = "latest"
+        TAG = "latest.1"
         APP_SERVER_IP       = "3.109.202.110"
         APP_SERVER_USER     = "ubuntu"
         SSH_KEY_CREDENTIALS = "application-server-ssh-key"

@@ -8,9 +8,9 @@ pipeline {
         DOCKERHUB_USERNAME = "santanugarai"
         IMAGE_NAME = "applicationserver"
         TAG = "latest"
-        APP_SERVER_IP       = "your-app-server-private-ip"
-        APP_SERVER_USER     = "ec2-user"
-        SSH_KEY_CREDENTIALS = "app-server-ssh-key"
+        APP_SERVER_IP       = "3.109.202.110"
+        APP_SERVER_USER     = "ubuntu"
+        SSH_KEY_CREDENTIALS = "jenkins-server-ssh-key"
     }
 
     stages {

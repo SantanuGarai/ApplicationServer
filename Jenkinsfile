@@ -10,7 +10,7 @@ pipeline {
         TAG = "latest"
         APP_SERVER_IP       = "3.109.202.110"
         APP_SERVER_USER     = "ubuntu"
-        SSH_KEY_CREDENTIALS = "jenkins-server-ssh-key"
+        SSH_KEY_CREDENTIALS = "application-server-ssh-key"
     }
 
     stages {

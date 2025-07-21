@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
     );
 });
 
+app.get("/test", (req, res) => {
+    res.send("This is test app");
+});
+
 app.listen(port, () => {
     console.log(`App running on port ${port}`);
 });
